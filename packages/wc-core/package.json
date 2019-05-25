@@ -1,24 +1,27 @@
 {
-  "name": "@p9/js-utils",
-  "version": "0.1.0",
+  "name": "@p9/wc-core",
+  "version": "0.0.1",
   "description": "> TODO: description",
   "author": "friewerts <frederik.riewerts@gmail.com>",
   "homepage": "https://github.com/TrveMan/p9#readme",
   "license": "ISC",
-  "main": "lib/js-utils.js",
-  "types": "lib/js-utils.d.ts",
+  "main": "lib/wc-core.js",
+  "types": "lib/wc-core.d.ts",
   "publishConfig": {
     "access": "public"
   },
   "files": [
     "lib"
   ],
-  "repository": "https://github.com/TrveMan/p9/tree/master/packages/js-utils",
+  "repository": "https://github.com/TrveMan/p9/tree/master/packages/wc-core",
   "scripts": {
     "build": "rimraf lib && tsc",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/TrveMan/p9/issues"
+  },
+  "dependencies": {
+    "@p9/js-utils": "^0.1.0"
   }
 }
