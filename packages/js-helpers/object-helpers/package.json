@@ -1,0 +1,27 @@
+{
+  "name": "@p9/object-helpers",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Fredie <riewertswebdesign@gmail.com>",
+  "homepage": "https://github.com/TrveMan/p9#readme",
+  "license": "ISC",
+  "main": "dist/umd/object-helpers.js",
+  "module": "dist/esm/object-helpers.mjs",
+  "types": "dist/umd/object-helpers.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrveMan/p9.git"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "build": "rollup -c",
+    "build2": "rimraf lib && tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
