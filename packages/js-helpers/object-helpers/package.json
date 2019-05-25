@@ -5,8 +5,9 @@
   "author": "Fredie <riewertswebdesign@gmail.com>",
   "homepage": "https://github.com/TrveMan/p9#readme",
   "license": "ISC",
-  "main": "dist/object-helpers.js",
-  "types": "dist/@types/object-helpers.d.ts",
+  "main": "dist/umd/object-helpers.js",
+  "module": "dist/esm/object-helpers.mjs",
+  "types": "dist/umd/object-helpers.d.ts",
   "publishConfig": {
     "access": "public"
   },
@@ -19,7 +20,8 @@
   },
   "scripts": {
     "tsc": "tsc",
-    "build": "rimraf lib && tsc",
+    "build": "rollup -c",
+    "build2": "rimraf lib && tsc",
     "test": "echo \"Error: run tests from root\" && exit 1"
   }
 }
