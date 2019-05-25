@@ -21,7 +21,6 @@
   "scripts": {
     "tsc": "tsc",
     "build": "rollup -c",
-    "build2": "rimraf lib && tsc",
     "test": "echo \"Error: run tests from root\" && exit 1"
   }
 }
