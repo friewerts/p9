@@ -1,29 +1,27 @@
 {
-  "name": "@p9/dom-helpers",
-  "version": "2.0.5",
+  "name": "@p9/js-utils",
+  "version": "0.0.0",
   "description": "> TODO: description",
-  "author": "Fredie <riewertswebdesign@gmail.com>",
+  "author": "friewerts <frederik.riewerts@gmail.com>",
   "homepage": "https://github.com/TrveMan/p9#readme",
   "license": "ISC",
-  "main": "dist/dom-helpers.js",
-  "module": "dist/esm/dom-helpers.mjs",
-  "types": "dist/umd/dom-helpers.d.ts",
+  "main": "lib/js-utils.js",
+  "types": "lib/@types/js-utils.d.ts",
   "publishConfig": {
     "access": "public"
   },
   "files": [
-    "dist"
+    "lib"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TrveMan/p9.git"
   },
   "scripts": {
-    "build": "rollup -c",
+    "build": "rimraf lib && tsc",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/TrveMan/p9/issues"
-  },
-  "gitHead": "b9ec03d09c58417bdc70fe19860578815578825e"
+  }
 }
