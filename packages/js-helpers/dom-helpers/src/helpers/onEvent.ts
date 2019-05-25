@@ -2,7 +2,7 @@ import { isNodeList } from './isNodeList';
 import { forEachNode } from './forEachNode';
 
 /**
- * adds event with given parameters
+ * adds event with given parameters to given target
  * @param {HTMLElement|Node|NodeList} target
  * @param {string} events
  * @param {Function} handler

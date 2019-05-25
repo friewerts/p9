@@ -1,6 +1,7 @@
 {
   "packages": [
-    "packages/js-helpers/*"
+    "packages/js-helpers/dom-helpers/*",
+    "packages/js-helpers/object-helpers/*"
   ],
   "version": "2.0.4"
 }
