@@ -1,0 +1,25 @@
+{
+  "name": "@p9/dom-helpers",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Fredie <riewertswebdesign@gmail.com>",
+  "homepage": "https://github.com/TrveMan/p9#readme",
+  "license": "ISC",
+  "main": "dist/dom-helpers.js",
+  "module": "dist/esm/dom-helpers.mjs",
+  "types": "dist/umd/dom-helpers.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrveMan/p9.git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/TrveMan/p9/issues"
+  }
+}
