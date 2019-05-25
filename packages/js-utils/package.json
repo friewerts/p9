@@ -6,7 +6,7 @@
   "homepage": "https://github.com/TrveMan/p9#readme",
   "license": "ISC",
   "main": "lib/js-utils.js",
-  "types": "lib/@types/js-utils.d.ts",
+  "types": "lib/js-utils.d.ts",
   "publishConfig": {
     "access": "public"
   },

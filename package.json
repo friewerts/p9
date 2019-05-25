@@ -5,7 +5,8 @@
     "create-package": "lerna create",
     "publish": "lerna run build && lerna publish",
     "build": "lerna run build",
-    "bootstrap": "lerna bootstrap"
+    "bootstrap": "lerna bootstrap",
+    "add": "lerna add @p9/js-utils --scope=@p9/test"
   },
   "devDependencies": {
     "@types/node": "^12.0.2",

@@ -1,13 +1,13 @@
-import * as apiHelper from './api-helper';
-import * as arrayHelper from './array-helper';
-import * as domHelper from './dom-helper';
-import * as objectHelper from './object-helper';
-import * as stringHelper from './string-helper';
+import * as apiHelpers from './api-helpers';
+import * as arrayHelpers from './array-helpers';
+import * as domHelpers from './dom-helpers';
+import * as objectHelpers from './object-helpers';
+import * as stringHelpers from './string-helpers';
 
 export {
-  apiHelper,
-  arrayHelper,
-  domHelper,
-  objectHelper,
-  stringHelper
+  apiHelpers,
+  arrayHelpers,
+  domHelpers,
+  objectHelpers,
+  stringHelpers
 }
