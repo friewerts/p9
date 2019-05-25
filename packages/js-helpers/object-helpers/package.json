@@ -22,5 +22,6 @@
     "tsc": "tsc",
     "build": "rollup -c",
     "test": "echo \"Error: run tests from root\" && exit 1"
-  }
+  },
+  "gitHead": "b9ec03d09c58417bdc70fe19860578815578825e"
 }
