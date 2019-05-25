@@ -1,0 +1,28 @@
+{
+  "name": "@p9/test",
+  "private": true,
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "friewerts <frederik.riewerts@gmail.com>",
+  "homepage": "https://github.com/TrveMan/p9#readme",
+  "license": "ISC",
+  "main": "lib/js-utils.js",
+  "types": "lib/@types/js-utils.d.ts",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrveMan/p9.git"
+  },
+  "scripts": {
+    "start": "rimraf lib && tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/TrveMan/p9/issues"
+  },
+  "dependencies": {
+    "@p9/js-utils": "^0.0.1"
+  }
+}
